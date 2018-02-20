@@ -1,10 +1,10 @@
 <project default="compile">
 <property name="src.java.dir" location="./src"/>
 <property name="result.dir" location="./"/>
-<property name="result.javaclasses.dir" location="${result.dir}/bin"/>
+<property name="result.javaclasses.dir" location="${result.dir}/bin/"/>
 
 <path id="NecessaryLibraries">
-<pathelement location="./MyLibraries/junit.jar"/>
+	<pathelement location="./MyLibraries/junit.jar"/>
 
 <pathelement location="./MyLibraries/org.hamcrest.core_1.3.0.v201303031735.jar"/>
 
@@ -30,7 +30,7 @@
 <batchtest>
 <fileset dir="${result.javaclasses.dir}">
 <include name="addtest.class"/>
-
+<include name="Sub.class"/>
 </fileset>
 </batchtest>
 </junit>
