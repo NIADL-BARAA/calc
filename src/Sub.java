@@ -1,19 +1,15 @@
-
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-public class addtest {
+
+public class Sub {
 
 	@Test
 	public void test() {
-	//	fail("Not yet implemented");
 		model temp=new model();
-		temp.add(5, 5);
+		temp.sub(5, 5);
 		int x=temp.getresult();
-		assertEquals(10,x,0);
-		
-		
+		assertEquals(0,x,0);
 	}
 
 }

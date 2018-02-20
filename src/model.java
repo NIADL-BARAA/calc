@@ -1,4 +1,4 @@
-package calc;
+
 import java.math.*;
 public class model {
 	private int result;

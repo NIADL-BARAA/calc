@@ -1,4 +1,4 @@
-package calc;
+
 
 public class simplecalc {
 
